@@ -7,6 +7,12 @@ public class MaddeningCaverns {
     public MaddeningCaverns(){
         move();
         act();
+        run();
+    }
 
+    private void move(){}
+    private void act(){}
+    private void run(){
+        player.checkStats();
     }
 }

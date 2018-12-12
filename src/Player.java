@@ -19,7 +19,7 @@ public class Player {
 
     }
 
-    public void checkStat(){
+    public void checkStats(){
         checkDeath();
         checkCrit();
     }
